@@ -26,7 +26,8 @@
     "smells/no-this-assign": 1,
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
-    "react/react-in-jsx-scope": 2
+    "react/react-in-jsx-scope": 2,
+    "eol-last": 1
   },
   "plugins": [
     "react",

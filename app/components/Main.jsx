@@ -1,17 +1,14 @@
 import React from 'react'
-// import request from 'superagent'
-// import _ from 'lodash'
-// import Icon from './icon'
+import AddTodo from '../containers/AddTodo'
+import VisibleTodoList from '../containers/VisibleTodoList'
+import FilterLinks from '../containers/FilterLinks'
 
-class Main extends React.Component {
-  constructor (props) {
-    super(props)
-    this.displayName = 'Main'
-  }
-
-  render () {
-    return <div className="main">Main</div>
-  }
-}
+const Main = () => (
+  <div className="main">
+    <AddTodo />
+    <VisibleTodoList />
+    <FilterLinks />
+  </div>
+)
 
 export default Main

@@ -31,7 +31,7 @@ const common = merge(
     }
   },
   parts.indexTemplate({
-    title: 'React Boilerplate',
+    title: 'React Redux Boilerplate',
     appMountId: 'app',
     faviconPath: PATHS.images,
     favicon: 'webpack.png'
