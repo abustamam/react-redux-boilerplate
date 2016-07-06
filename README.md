@@ -4,10 +4,12 @@ I created this boilerplate with instructions from the book [SurviveJS](http://su
 
 Then, I used the latest from Dan Abramov's [React Hot Boilerplate](https://github.com/gaearon/reacthotboilerplate).
 
+Then, I did something uncanny and read [the docs](http://redux.js.org/docs/introduction/Ecosystem.html) as well as watched [the videos](https://egghead.io/lessons/javascript-redux-extracting-presentational-components-todo-todolist). 
 
 ## Features
 
 - Hot reloading
+- Redux
 - Github pages deployment
 - Sass
 

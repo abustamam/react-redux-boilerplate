@@ -1,7 +1,7 @@
 import React from 'react'
 import FilterLink from './FilterLink'
 
-const Footer = () => (
+const FilterLinks = () => (
   <p>
     Show:
     {" "}
@@ -19,4 +19,4 @@ const Footer = () => (
   </p>
 )
 
-export default Footer
+export default FilterLinks
