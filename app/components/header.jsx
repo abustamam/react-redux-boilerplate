@@ -8,7 +8,7 @@ const Header = () => (
       </a>
     </div>
     <div className="title">
-      React Redux Boilerplate
+      React Redux
     </div>
     <div style={{ width: 280 }}></div>
   </header>
