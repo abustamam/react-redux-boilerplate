@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
+  "name": "react-redux-boilerplate",
   "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "description": "Boilerplate for ReactJS/Redux project with hot code reloading",
   "scripts": {
     "start": "webpack-dev-server --port 8000",
     "stats": "webpack --profile --json > stats.json",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abustamam/react-hot-boilerplate.git"
+    "url": "git+https://github.com/abustamam/react-redux-boilerplate.git"
   },
   "keywords": [
     "react",
@@ -19,7 +19,7 @@
   ],
   "author": "Rasheed Bustamam <rasheed.bustamam@gmail.com> (http://github.com/abustamam)",
   "license": "MIT",
-  "homepage": "https://github.com/abustamam/react-boilerplate",
+  "homepage": "https://abustamam.github.io/react-redux-boilerplate",
   "devDependencies": {
     "autobind-decorator": "^1.3.3",
     "babel-core": "^6.10.4",
@@ -75,7 +75,7 @@
     "redux": "^3.5.2"
   },
   "bugs": {
-    "url": "https://github.com/abustamam/react-boilerplate/issues"
+    "url": "https://github.com/abustamam/react-redux-boilerplate/issues"
   },
   "main": "index.js"
 }
