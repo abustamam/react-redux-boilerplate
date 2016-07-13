@@ -1,7 +1,7 @@
 import React from 'react'
 import AddTodo from '../containers/AddTodo'
 import VisibleTodoList from '../containers/VisibleTodoList'
-import FilterLinks from '../containers/FilterLinks'
+import FilterLinks from './FilterLinks'
 
 const Main = () => (
   <div className="main">

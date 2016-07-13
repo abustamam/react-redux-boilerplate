@@ -4,12 +4,13 @@ I created this boilerplate with instructions from the book [SurviveJS](http://su
 
 Then, I used the latest from Dan Abramov's [React Hot Boilerplate](https://github.com/gaearon/reacthotboilerplate).
 
-Then, I did something uncanny and read [the docs](http://redux.js.org/docs/introduction/Ecosystem.html) as well as watched [the videos](https://egghead.io/lessons/javascript-redux-extracting-presentational-components-todo-todolist). 
+Then, I did something uncanny and read [the docs](http://redux.js.org/docs/introduction/Ecosystem.html) as well as watched [the videos](https://egghead.io/lessons/javascript-redux-extracting-presentational-components-todo-todolist). Then I went through the [Immutable JS](https://facebook.github.io/immutable-js/) docs and this handy [SitePoint](https://www.sitepoint.com/how-to-build-a-todo-app-using-react-redux-and-immutable-js/) tutorial on combining Immutable JS with Redux. 
 
 ## Features
 
 - Hot reloading
 - Redux
+- Immutable JS
 - Github pages deployment
 - Sass
 
