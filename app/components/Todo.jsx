@@ -1,15 +1,15 @@
 import React, { PropTypes } from 'react'
 
-const Todo = todo => (
-  <li
-    onClick={todo.get('onClick')}
+const Todo = ({ onClick, completed, text }) => {
+  return (<li
+    onClick={onClick}
     style={{
-      textDecoration: todo.get('completed') ? 'line-through' : 'none'
+      textDecoration: completed ? 'line-through' : 'none'
     }}
   >
-    {todo.get('text')}
+    {text}
   </li>
-)
+)}
 
 Todo.propTypes = {
   onClick: PropTypes.func.isRequired
