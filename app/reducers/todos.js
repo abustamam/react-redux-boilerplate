@@ -22,6 +22,7 @@ const todos = (state = initialTodos, action) => {
   case 'ADD_TODO':
     return state.push(todo(null, action))
   case 'TOGGLE_TODO':
+    console.log(state)
     return state.map(t => {
       if (t.get('id') === action.id) {
         return t.update('completed', completed => !completed)
